@@ -6,4 +6,6 @@ public class Student {
 	private String age;
 	private String secode;
 	private String first;
+	
+	public String test;
 }
