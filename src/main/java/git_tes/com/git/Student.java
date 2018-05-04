@@ -11,4 +11,6 @@ public class Student {
 	public String test;
 	
     public int a1;
+    
+    public String sss;
 }
