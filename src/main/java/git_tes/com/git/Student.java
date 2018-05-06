@@ -36,5 +36,8 @@ public class Student {
 	public String getMessage(){
 		return "Àî³¬";
 	}
+	public void StudentTest(){
+		
+	}
 	
 }
