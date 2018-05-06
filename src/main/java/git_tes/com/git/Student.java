@@ -41,8 +41,17 @@ public class Student {
 		
 	}
 	
+
+	
+	public void pringMessage(){
+			System.out.println("sssss");
+	}
+
 	public int getAgedd(){
 		return 11;
 	}
+	
+	
+	private int dd=44;
 	
 }
