@@ -41,4 +41,8 @@ public class Student {
 		
 	}
 	
+	public int getAgedd(){
+		return 11;
+	}
+	
 }
