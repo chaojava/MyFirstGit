@@ -33,8 +33,20 @@ public class Student {
 		this.address = address;
 	}
 	
+
+	public String getMessage(){
+		return "Àî³¬";
+	}
 	public void StudentTest(){
 		
+	}
+	
+	
+	public void pringMessage(){
+			System.out.println("sssss");
+	}
+	public int getAgedd(){
+		return 11;
 	}
 	
 }

@@ -36,6 +36,13 @@ public class FirstClass {
 		this.updateDate = updateDate;
 	}
 	
+	public void testFunction(){
+		
+	}
+	
+	public void getNamedd(){
+		
+	}
 	
 	
 }
