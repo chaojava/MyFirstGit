@@ -33,6 +33,7 @@ public class Student {
 		this.address = address;
 	}
 	
+
 	public String getMessage(){
 		return "Àî³¬";
 	}
