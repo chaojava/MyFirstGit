@@ -33,6 +33,8 @@ public class Student {
 		this.address = address;
 	}
 	
-	
+	public void StudentTest(){
+		
+	}
 	
 }
