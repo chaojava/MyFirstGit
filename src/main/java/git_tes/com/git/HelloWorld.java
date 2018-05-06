@@ -12,4 +12,7 @@ public class HelloWorld {
 		System.out.println("斯蒂芬是否对帅帅哒发达的");
 		System.out.println("ddd打发打发第三方打算发大水d");
 	}
+	public void testMethod(){
+		System.out.println("测试方法的作用！");
+	}
 }
