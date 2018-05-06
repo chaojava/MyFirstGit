@@ -40,4 +40,9 @@ public class FirstClass {
 		
 	}
 	
+	public void getNamedd(){
+		
+	}
+	
+	
 }
