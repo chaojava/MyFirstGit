@@ -1,18 +1,43 @@
 package git_tes.com.git;
 
+
 public class HelloWorld {
 
 	
 	public static void main(String[] args) {
-		System.out.println("开始一个git提交项目！");
-		System.out.println("我是工程一！");
-		System.out.println("我是工程二！");
-		System.out.println("我开始修改啦");
-		System.out.println("dddd");
-		System.out.println("斯蒂芬是否对帅帅哒发达的");
-		System.out.println("ddd打发打发第三方打算发大水d");
+		String[] sMethod ={"name"};
+			Student s = (Student) getBean("git_tes.com.git.Student",sMethod);
+			System.out.println("谁出："+s.getName());
+		String[] fcMethod ={"no"};
+			FirstClass fc = (FirstClass) getBean("git_tes.com.git.FirstClass",fcMethod);
+			System.out.println("谁出："+fc.getNo());
 	}
+
 	public void testMethod(){
 		System.out.println("测试方法的作用！");
 	}
+
+	
+	public static Object getBean(String packageName, String...methodName){
+		try {
+			Class commonClass = Class.forName(packageName);
+			Object object = commonClass.newInstance();
+			for(int i=0; i<methodName.length; i++){
+				Class<?> methodType = commonClass.getMethod("get"+upperCase(methodName[i])).getReturnType();
+				System.out.println("====:"+methodType.getName()+" "+methodType.getSimpleName());
+				commonClass.getMethod("set"+upperCase(methodName[i]), methodType).invoke(object, "李超");
+			}
+			return object;
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return null;
+	}
+	
+	public static String upperCase(String str) {  
+		   return str.substring(0, 1).toUpperCase() + str.substring(1);  
+
+}
 }
