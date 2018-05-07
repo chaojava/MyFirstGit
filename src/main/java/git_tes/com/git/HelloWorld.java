@@ -14,7 +14,7 @@ public class HelloWorld {
 	}
 
 	public void testMethod(){
-		System.out.println("测试方法的作用！");
+		System.out.println("测试方法的作用！dddddddddd");
 	}
 
 	
