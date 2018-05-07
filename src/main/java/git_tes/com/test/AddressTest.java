@@ -5,5 +5,9 @@ public class AddressTest {
 	
 	public static final String TEST = "I AM LICHAO";
 	
+	public static final String SECOND = "ÃÏ π";
+	
 	private String chao = "chao";
+	
+	private int f = 44;
 }
