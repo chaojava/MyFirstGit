@@ -7,14 +7,14 @@ public class HelloWorld {
 	public static void main(String[] args) {
 		String[] sMethod ={"name"};
 			Student s = (Student) getBean("git_tes.com.git.Student",sMethod);
-			System.out.println("谁出："+s.getName());
+			System.out.println("谁出ddddddd："+s.getName());
 		String[] fcMethod ={"no"};
 			FirstClass fc = (FirstClass) getBean("git_tes.com.git.FirstClass",fcMethod);
 			System.out.println("谁出："+fc.getNo());
 	}
 
 	public void testMethod(){
-		System.out.println("测试方法的作用！");
+		System.out.println("222测试方法的作用！");
 	}
 
 	
