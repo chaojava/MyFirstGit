@@ -14,5 +14,9 @@ public class AddressTest {
 	private int p=433;
 	
 	private int gg = 1111111;
+	
+	
+	private String msg = "我要冲突起来";
+
 
 }
