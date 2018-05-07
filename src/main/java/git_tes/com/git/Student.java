@@ -54,4 +54,5 @@ public class Student {
 	
 	private int dd=44;
 	
+	private String cc= "tianshi";
 }
