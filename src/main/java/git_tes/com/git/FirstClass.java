@@ -41,7 +41,7 @@ public class FirstClass {
 	}
 	
 	public void getNamedd(){
-		
+		System.out.println("12222wsq");
 	}
 	
 	
