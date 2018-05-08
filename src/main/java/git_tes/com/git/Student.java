@@ -55,4 +55,5 @@ public class Student {
 	private int dd=44;
 	
 	private String cc= "tianshi";
+	public final static String NAME_TT = "FUPIN";
 }
