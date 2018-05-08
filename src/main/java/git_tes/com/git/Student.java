@@ -60,4 +60,5 @@ public class Student {
 	public final static String NAME_TTq = "FUPIN";
 	public final static String NAME_TTq1 = "qqqq";
 	public final static String NAME_TTq12 = "qqqq22";
+	public final static String NAME_TTq1q2 = "qqqq2qqqqqqq2";
 }
