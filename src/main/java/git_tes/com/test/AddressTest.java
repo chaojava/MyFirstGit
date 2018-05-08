@@ -21,6 +21,9 @@ public class AddressTest {
 	public void printMsg(){
 		System.out.println("历史不会重演");
 	}
+	public String getMsg(String name){
+		return name;
+	}
 
 
 }
