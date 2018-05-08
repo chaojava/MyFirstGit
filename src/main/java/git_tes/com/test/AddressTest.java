@@ -18,7 +18,9 @@ public class AddressTest {
 	
 	private String msg = "我要冲突起来";
 	
-	
+	public void printMsg(){
+		System.out.println("历史不会重演");
+	}
 
 
 }
