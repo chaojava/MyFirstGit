@@ -56,4 +56,5 @@ public class Student {
 	
 	private String cc= "tianshi";
 	public final static String NAME_TT = "FUPIN";
+	public final static String NAME_TTq = "FUPIN";
 }

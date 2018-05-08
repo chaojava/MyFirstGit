@@ -26,4 +26,7 @@ public class AddressTest {
 	}
 
 
+	public void printMsg111111(){
+		System.out.println("历史不会重演");
+	}
 }
