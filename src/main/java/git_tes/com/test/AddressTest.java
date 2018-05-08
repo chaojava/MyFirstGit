@@ -33,4 +33,11 @@ public class AddressTest {
 	public void  getAddress(){
 		System.out.println("地址来啦");
 	}
+	
+	public void  getAddress1212(){
+		System.out.println("地址来啦212121");
+	}
+	public void  getAddress11(){
+		System.out.println("地址来啦11");
+	}
 }
