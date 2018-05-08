@@ -29,4 +29,8 @@ public class AddressTest {
 	public void printMsg111111(){
 		System.out.println("历史不会重演");
 	}
+	
+	public void  getAddress(){
+		System.out.println("地址来啦");
+	}
 }
